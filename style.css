@@ -11,7 +11,7 @@ body {
 
 .hero-body {
   min-height: calc(100vh - 90px);
-  padding-top: 20px; 
+  padding-top: 110px; 
   padding-bottom: 60px;
 }
 
@@ -57,22 +57,22 @@ body {
 }
 
 .vec-circle {
-  top: -8%;
-  right: 13%;
-  width: 420px;
-  opacity: 0.08;
+  top: 12%;
+  right: 17%;
+  width: 280px;
+  opacity: 0.99;
 }
 .vec-pill-1 {
-  top: 18%;
-  right: 4%;
-  width: 90px;
-  opacity: 0.18;
+  bottom: 18%;
+  left: 45%;
+  width: 50px;
+  opacity: 0.8;
 }
 .vec-pill-2 {
-  bottom: 8%;
-  left: 44%;
-  width: 110px;
-  opacity: 0.1;
+  top: 18%;
+  left: 41%;
+  width: 220px;
+  opacity: 0.8;
 }
 
 .gallery-wrapper {
@@ -84,21 +84,21 @@ body {
 }
 
 .half-pill {
-  bottom: 10px;
-  left: -40px;
-  width: 110px;
+  top: 20px;
+  left: -20px;
+  width: 180px;
   z-index: 0;
   opacity: 0.7;
 }
 
 .dot-grid {
   position: absolute;
-  bottom: 80px;
-  left: -20px;
+  bottom: 140px;
+  left: -95px;
   width: 110px;
   height: 90px;
   z-index: 0;
-  opacity: 0.25;
+  opacity: 0.8;
   background-image: radial-gradient(circle, #ffffff 1.5px, transparent 1.5px);
   background-size: 12px 12px;
 }
@@ -133,31 +133,31 @@ body {
 }
 
 .doc-1 {
-  width: 260px;
+  width: 290px;
   height: 278px;
   top: 55px;
-  left: 0;
+  left: -50px ;
   z-index: 2;
 }
 
 .doc-2 {
-  width: 285px;
+  width: 305px;
   height: 315px;
   bottom: 25px;
-  left: 50%;
+  left: 45%;
   transform: translateX(-50%);
   z-index: 3;
   box-shadow: 0 20px 55px rgba(0, 0, 0, 0.35);
 }
 
 .doc-3 {
-  width: 248px;
+  width: 278px;
   height: 265px;
   top: 18px;
-  right: 0;
+  right: -20px;
   z-index: 4;
 }
-
+/* Media Queries */
 @media (max-width: 1199px) {
   .gallery-wrapper {
     max-width: 440px;
@@ -166,6 +166,7 @@ body {
   .doc-1 {
     width: 192px;
     height: 247px;
+    left: 10px;
   }
   .doc-2 {
     width: 216px;
@@ -174,13 +175,20 @@ body {
   .doc-3 {
     width: 184px;
     height: 237px;
+    right: 13px;
+  }
+  .vec {
+    display: none;
+  }
+  .dot-grid{
+    left: -49px;
   }
 }
 
 @media (max-width: 991px) {
   .hero-body {
     min-height: auto;
-    padding-top: 40px; 
+    padding-top: 100px; 
   }
   .gallery-wrapper {
     max-width: 400px;
@@ -205,6 +213,16 @@ body {
     height: 206px;
     top: 10px;
   }
+
+  .vec {
+    display: block;
+  }
+  
+  .vec-circle{
+    display: none;
+  }
+
+
 }
 
 @media (max-width: 575px) {
@@ -213,7 +231,8 @@ body {
     height: 365px;
   }
   .dot-grid {
-    display: none;
+    display: block;
+    bottom: 100px;
   }
   .doc-1 {
     width: 144px;
