@@ -1,1 +1,363 @@
- 
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doc House</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark pt-2 pb-2 fixed-top"
+      style="
+        background-color: #07332f;
+        z-index: 1050;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      "
+    >
+      <div class="container px-5">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="img/logo.png" alt="Doc House Logo" height="40" />
+        </a>
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-lg-4 mt-3 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link muted-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link muted-link" href="#">Appointment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link muted-link" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- hero doctor profile -->
+   <header class="page-banner position-relative overflow-hidden pt-5 mt-5 pb-5 ">
+    
+    <img src="img/half_pill_vector.png" class="vec-banner-half" alt="">
+    <img src="img/pill_3_vector.png" class="vec-banner-pill" alt="">
+
+    <div class="container position-relative z-1 h-100 d-flex align-items-center">
+        <div class="banner-content text-white w-100 text-center text-lg-start ps-lg-5">
+            
+            <p class="mb-2" style="font-size: 15px;">
+                <a href="index.html" class="text-white-50 text-decoration-none hover-white">Home</a> 
+                <span class="text-white-50 mx-2">/</span> 
+                <span class="fw-bold">Doctor Profile</span>
+            </p>
+            
+            <h1 class="display-5 fw-bold mb-0">Doctor Profile</h1>
+            
+        </div>
+    </div>
+</header>
+    <!-- hero doctor profile -->
+
+    <!-- doctor name  -->
+    <section class="doctor-profile-details py-5" style="background-color: #f4f5f7;">
+    <div class="container px-4 px-lg-5">
+        
+        <div class="card border-0 shadow-sm p-4 p-lg-5 mx-auto" style="border-radius: 10px; max-width: 1000px;">
+            <div class="row g-4 g-lg-5">
+                
+                <div class="col-md-5 col-lg-4">
+                    <div class="w-100 rounded-3" style="background-color: #f2f2f2; aspect-ratio: 3/4;"></div>
+                </div>
+
+                <div class="col-md-7 col-lg-8 pt-lg-4">
+                    
+                    <h2 class="fw-bold mb-2" style="color: #212529;">Dr. Ruby Perrin</h2>
+                    <p class="text-muted mb-3" style="font-size: 15px;">MBBS, MD - General Medicine</p>
+                    
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="d-flex gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#f7a582"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#f7a582"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#f7a582"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#f7a582"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#d1d5db"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                        </div>
+                        <span class="text-muted ms-2" style="font-size: 14px;">(35)</span>
+                    </div>
+                    
+                    <div class="d-flex align-items-start mb-4 pb-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6c757d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-1"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        <div class="text-muted ms-2 lh-base" style="font-size: 14px;">
+                            Dhanmondi, Dhaka, Bangladesh 
+                            <br class="d-block d-md-none">
+                            <span class="d-none d-md-inline">- </span>
+                            <a href="#" class="text-decoration-none fw-semibold" style="color: #f7a582;">
+                                <span class="d-md-none">- </span>Get Directions
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex flex-wrap gap-2 gap-md-3 mb-4">
+                        <div class="gallery-thumb rounded-3" style="background-color: #f2f2f2;"></div>
+                        <div class="gallery-thumb rounded-3" style="background-color: #f2f2f2;"></div>
+                        <div class="gallery-thumb rounded-3" style="background-color: #f2f2f2;"></div>
+                        <div class="gallery-thumb rounded-3" style="background-color: #f2f2f2;"></div>
+                        <div class="gallery-thumb rounded-3" style="background-color: #f2f2f2;"></div>
+                        <div class="gallery-thumb rounded-3" style="background-color: #f2f2f2;"></div>
+                    </div>
+                    
+                    <div class="d-flex flex-column flex-md-row gap-2 gap-md-3 align-items-start">
+                        <span class="border border-secondary-subtle rounded-3 px-3 py-2 text-muted fw-medium" style="font-size: 14px;">Dental Filling</span>
+                        <span class="border border-secondary-subtle rounded-3 px-3 py-2 text-muted fw-medium" style="font-size: 14px;">Teeth Whitening</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+     <!-- doctor name  -->
+
+     <!-- doc information -->
+      <section class="profile-tabs-section pb-5" style="background-color: #f4f5f7;">
+    <div class="container px-4 px-lg-5">
+        
+        <div class="card border-0 shadow-sm mx-auto profile-details-card" style="border-radius: 12px; max-width: 1000px;">
+            
+            <div class="tab-nav-wrapper px-4 px-lg-5 pt-4">
+                <ul class="nav nav-tabs profile-custom-tabs d-flex border-bottom-0" id="profileTabs" role="tablist">
+                    <li class="nav-item flex-fill text-center" role="presentation">
+                        <button class="nav-link active w-100 py-3 fw-bold" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab">Overview</button>
+                    </li>
+                    <li class="nav-item flex-fill text-center" role="presentation">
+                        <button class="nav-link w-100 py-3 fw-bold" id="locations-tab" data-bs-toggle="tab" data-bs-target="#locations" type="button" role="tab">Locations</button>
+                    </li>
+                    <li class="nav-item flex-fill text-center" role="presentation">
+                        <button class="nav-link w-100 py-3 fw-bold" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab">Reviews</button>
+                    </li>
+                    <li class="nav-item flex-fill text-center" role="presentation">
+                        <button class="nav-link w-100 py-3 fw-bold" id="hours-tab" data-bs-toggle="tab" data-bs-target="#hours" type="button" role="tab">Business Hours</button>
+                    </li>
+                </ul>
+                <div class="border-bottom" style="border-color: #f0f0f0 !important;"></div>
+            </div>
+
+            <div class="tab-content p-4 p-lg-5" id="profileTabsContent">
+                
+                <div class="tab-pane fade show active" id="overview" role="tabpanel">
+                    
+                    <h5 class="fw-bold mb-3" style="color: #333;">About Me</h5>
+                    <p class="text-muted lh-lg mb-5" style="font-size: 14.5px;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+
+                    <div class="row g-5">
+                        
+                        <div class="col-md-6">
+                            
+                            <h5 class="fw-bold mb-4" style="color: #333;">Education</h5>
+                            <ul class="profile-list text-muted mb-5">
+                                <li>
+                                    <span class="text-dark fw-bold">American Dental Medical University</span><br>
+                                    BDS<br>
+                                    1998 - 2003
+                                </li>
+                                <li>
+                                    <span class="text-dark fw-bold">American Dental Medical University</span><br>
+                                    MDS<br>
+                                    2003 - 2005
+                                </li>
+                            </ul>
+
+                            <h5 class="fw-bold mb-4" style="color: #333;">Work & Experience</h5>
+                            <ul class="profile-list text-muted mb-5">
+                                <li>
+                                    <span class="text-dark fw-bold">Glowing Smiles Family Dental Clinic</span><br>
+                                    2010 - Present (5 years)
+                                </li>
+                                <li>
+                                    <span class="text-dark fw-bold">Comfort Care Dental Clinic</span><br>
+                                    2007 - 2010 (3 years)
+                                </li>
+                                <li>
+                                    <span class="text-dark fw-bold">Dream Smile Dental Practice</span><br>
+                                    2005 - 2007 (2 years)
+                                </li>
+                            </ul>
+
+                            <h5 class="fw-bold mb-4" style="color: #333;">Services</h5>
+                            <ul class="profile-list text-muted mb-0">
+                                <li>Tooth cleaning</li>
+                                <li>Root Canal Therapy</li>
+                                <li>Implants</li>
+                                <li>Composite Bonding</li>
+                                <li>Fissure Sealants</li>
+                                <li>Surgical Extractions</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            
+                            <h5 class="fw-bold mb-4" style="color: #333;">Awards</h5>
+                            <ul class="list-unstyled mb-5">
+                                <li class="mb-4">
+                                    <div class="text-muted mb-1" style="font-size: 13.5px;">July 2019</div>
+                                    <ul class="profile-list text-muted mb-0">
+                                        <li>
+                                            <span class="text-dark fw-bold">Humanitarian Award</span><br>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="mb-4">
+                                    <div class="text-muted mb-1" style="font-size: 13.5px;">March 2011</div>
+                                    <ul class="profile-list text-muted mb-0">
+                                        <li>
+                                            <span class="text-dark fw-bold">Certificate for International Volunteer Service</span><br>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="mb-0">
+                                    <div class="text-muted mb-1" style="font-size: 13.5px;">May 2008</div>
+                                    <ul class="profile-list text-muted mb-0">
+                                        <li>
+                                            <span class="text-dark fw-bold">The Dental Professional of The Year Award</span><br>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <h5 class="fw-bold mb-4" style="color: #333;">Specializations</h5>
+                            <ul class="profile-list text-muted mb-0">
+                                <li>Children Care</li>
+                                <li>Dental Care</li>
+                                <li>Oral and Maxillofacial Surgery</li>
+                                <li>Orthodontist</li>
+                                <li>Periodontist</li>
+                                <li>Prosthodontics</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tab-pane fade" id="locations" role="tabpanel"><p class="text-muted">Locations content goes here.</p></div>
+                <div class="tab-pane fade" id="reviews" role="tabpanel"><p class="text-muted">Reviews content goes here.</p></div>
+                <div class="tab-pane fade" id="hours" role="tabpanel"><p class="text-muted">Business Hours content goes here.</p></div>
+
+            </div>
+        </div>
+    </div>
+</section>
+      <!-- doctor information -->
+
+    <!-- footer -->
+    <footer class="footer-section py-5" style="background-color: #f3f3f3">
+      <div class="container px-4 px-lg-5">
+        <div class="row g-4 text-center text-lg-start">
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="footer-logo mb-4 d-flex justify-content-center justify-content-lg-start"
+            >
+              <img src="img/foot_logo.png" alt="Doc House Logo" height="40" />
+            </div>
+            <p class="text-muted lh-lg mb-4" style="font-size: 15px">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. has been since the printer took.
+            </p>
+            <a
+              href="#"
+              class="btn btn-outline-custom px-4 py-2 fw-bold rounded-3"
+              >Appointment</a
+            >
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center">
+            <div class="text-center text-lg-start">
+              <h4 class="fw-bold mb-4 fs-5">Quick Links</h4>
+              <ul class="list-unstyled footer-links">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Doctors</a></li>
+                <li><a href="#">Departments</a></li>
+                <li><a href="#">Online Payment</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">My Account</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex justify-content-center">
+            <div class="text-center text-lg-start">
+              <h4 class="fw-bold mb-4 fs-5">Doc House Services</h4>
+              <ul class="list-unstyled footer-links">
+                <li><a href="#">Pediatric Clinic</a></li>
+                <li><a href="#">Diagnosis Clinic</a></li>
+                <li><a href="#">Cardiac Clinic</a></li>
+                <li><a href="#">Laboratory Analysis</a></li>
+                <li><a href="#">Gynecological Clinic</a></li>
+                <li><a href="#">Personal Counseling</a></li>
+                <li><a href="#">Dental Clinic</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 d-flex justify-content-center justify-content-lg-end"
+          >
+            <div class="text-center text-lg-start">
+              <h4 class="fw-bold mb-4 fs-5">Working Hours</h4>
+              <ul class="list-unstyled footer-hours text-muted">
+                <li class="mb-2">Monday - 10 am to 7 pm</li>
+                <li class="mb-2">Tuesday - 10 am to 7 pm</li>
+                <li class="mb-2">Wednesday - 10 am to 7 pm</li>
+                <li class="mb-2">Thursday - 10 am to 7 pm</li>
+                <li class="mb-2">Friday - 10 am to 7 pm</li>
+                <li class="mb-2">Saturday - 10 am to 7 pm</li>
+                <li class="mb-2">Sunday - 10 am to 7 pm</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <hr class="mt-5 mb-4 opacity-25" />
+        <div class="text-center text-muted" style="font-size: 14px">
+          Copyright © 2026 - All right reserved by Doc House Ltd
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
