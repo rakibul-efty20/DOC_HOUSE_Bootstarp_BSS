@@ -6,7 +6,7 @@
 
 ## 🔗 Project Links
 
-* **Live Demo:** [View Hosted Project](https://rakibulhasanefty.github.io/doc-house/)
+* **Live Demo:** [View Hosted Project](https://doc-house-j03p4ydra-rakibul-efty20s-projects.vercel.app/)
 * **Source Code:** [GitHub Repository](https://github.com/rakibul-efty20/DOC_HOUSE_Bootstarp_BSS)
 
 ---
