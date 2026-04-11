@@ -4,20 +4,10 @@
 
 ---
 
-## 📂 Project Structure
-
-```text
-├── img/                # Optimized image assets and screenshots
-├── index.html          # Main Landing Page
-├── doctor-profile.html # Detailed Doctor Profile Page
-├── style.css           # Custom stylesheets and responsive media queries
-└── README.md           # Project documentation
-
-
 ## 🔗 Project Links
 
 * **Live Demo:** [View Hosted Project](https://rakibulhasanefty.github.io/doc-house/)
-* **Source Code:** [GitHub Repository](https://github.com/rakibulhasanefty/doc-house)
+* **Source Code:** [GitHub Repository](https://github.com/rakibul-efty20/DOC_HOUSE_Bootstarp_BSS)
 
 ---
 
@@ -43,12 +33,12 @@
 ### Desktop View
 | Home Page | Doctor Profile |
 | :---: | :---: |
-| ![Desktop Home](img/ss_pc1.jpg) | ![Desktop Profile](img/ss_pc2.jpg) |
+| ![Desktop Home](img/ss_pc1.png) | ![Desktop Profile](img/ss_pc2.png) |
 
 ### Mobile View
 | Mobile Home | Mobile Profile |
 | :---: | :---: |
-| ![Mobile Home](img/ss_mob1.jpg) | ![Mobile Profile](img/ss_mob2.jpg) |
+| ![Mobile Home](img/ss_mob1.png) | ![Mobile Profile](img/ss_mob2.png) |
 
 ---
 
