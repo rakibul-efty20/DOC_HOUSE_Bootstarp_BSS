@@ -115,68 +115,87 @@
 
     <!-- Our Services -->
     <section class="services-section py-5 mt-5">
-      <div class="container px-4 px-lg-5">
+    <div class="container px-4 px-lg-5">
         <div class="row gx-5">
-          <div class="col-lg-5 mb-5 mb-lg-0">
-            <div class="services-img-wrap shadow-sm">
-              <img
-                src="img/long_doctor.jpg"
-                alt="Service Doctor"
-                class="services-main-img"
-              />
-            </div>
-          </div>
-
-          <div class="col-lg-7 text-center text-lg-start">
-            <h2 class="fw-bold mb-4" style="color: #000">Our Services</h2>
-            <p class="service-para text-muted mb-4 lh-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta suntgf srgdfgdfgfg explicabo.
-            </p>
-
-            <div class="service-tabs-container mb-4">
-              <button class="service-tab active">Cavity Protection</button>
-              <button class="service-tab">Cosmetic Dentistry</button>
-              <button class="service-tab">Oral Surgery</button>
+            
+            <div class="col-lg-5 mb-5 mb-lg-0">
+                <div class="services-img-wrap shadow-sm">
+                    <img src="img/long_doctor.jpg" alt="Service Doctor" class="services-main-img" />
+                </div>
             </div>
 
-            <div class="service-detail">
-              <div class="service-detail__img-wrap mb-4">
-                <img
-                  src="img/teeth.jpg"
-                  alt="Teeth Therapy"
-                  class="service-detail__img"
-                />
-              </div>
+            <div class="col-lg-7 text-center text-lg-start">
+                <h2 class="fw-bold mb-4" style="color: #000">Our Services</h2>
+                <p class="service-para text-muted mb-4 lh-lg">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                    quae ab illo inventore veritatis et quasi architecto beatae vitae
+                    dicta suntgf srgdfgdfgfg explicabo.
+                </p>
 
-              <h4 class="fw-bold mb-3" style="color: #000">
-                Electro Gastrology Therapy
-              </h4>
-              <p class="text-muted mb-2 lh-lg">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste
-                natus error
-              </p>
-              <p class="text-muted mb-4 lh-lg">
-                Sit voluptatem accusantium doloremque laudantium, totam rem
-                aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                architecto beatae vitae dicta sunt explicabo.
-              </p>
+                <div class="service-tabs-container mb-4 nav" role="tablist">
+                    <button class="service-tab active" id="cavity-tab" data-bs-toggle="tab" data-bs-target="#cavity" type="button" role="tab">
+                        Cavity Protection
+                    </button>
+                    <button class="service-tab" id="cosmetic-tab" data-bs-toggle="tab" data-bs-target="#cosmetic" type="button" role="tab">
+                        Cosmetic Dentistry
+                    </button>
+                    <button class="service-tab" id="surgery-tab" data-bs-toggle="tab" data-bs-target="#surgery" type="button" role="tab">
+                        Oral Surgery
+                    </button>
+                </div>
 
-              <a
-                href="#"
-                class="btn btn-outline-custom px-4 py-2 fw-bold rounded-3"
-                >More Details</a
-              >
+                <div class="service-detail">
+                    
+                    <div class="service-detail__img-wrap mb-4">
+                        <img src="img/teeth.jpg" alt="Teeth Therapy" class="service-detail__img" />
+                    </div>
+
+                    <div class="tab-content" id="serviceTabContent">
+                        
+                        <div class="tab-pane fade show active" id="cavity" role="tabpanel">
+                            <h4 class="fw-bold mb-3" style="color: #000">Electro Gastrology Therapy</h4>
+                            <p class="text-muted mb-2 lh-lg">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                                quae ab illo inventore veritatis et quasi architecto beatae
+                                vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste
+                                natus error.
+                            </p>
+                            <p class="text-muted mb-4 lh-lg">
+                                Sit voluptatem accusantium doloremque laudantium, totam rem
+                                aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                        </div>
+
+                        <div class="tab-pane fade" id="cosmetic" role="tabpanel">
+                            <h4 class="fw-bold mb-3" style="color: #000">Cosmetic Dental Enhancements</h4>
+                            <p class="text-muted mb-2 lh-lg">
+                                Enhance your smile with our advanced cosmetic dentistry services. We offer everything from professional teeth whitening to complete smile makeovers, utilizing the latest technology to ensure natural-looking and long-lasting results.
+                            </p>
+                            <p class="text-muted mb-4 lh-lg">
+                                Our dedicated team of specialists is committed to providing painless procedures tailored strictly to your aesthetic goals and overall dental health.
+                            </p>
+                        </div>
+
+                        <div class="tab-pane fade" id="surgery" role="tabpanel">
+                            <h4 class="fw-bold mb-3" style="color: #000">Advanced Oral Surgery</h4>
+                            <p class="text-muted mb-2 lh-lg">
+                                Our clinic provides comprehensive oral and maxillofacial surgery options. Whether you require wisdom teeth extraction, dental implants, or corrective jaw surgery, our experienced surgeons guarantee the highest standard of care.
+                            </p>
+                            <p class="text-muted mb-4 lh-lg">
+                                We prioritize your comfort and safety, offering various sedation options to ensure a stress-free and painless surgical experience from start to finish.
+                            </p>
+                        </div>
+
+                    </div> <a href="#" class="btn btn-outline-custom px-4 py-2 fw-bold rounded-3 mt-2">More Details</a>
+                    
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </section>
+    </div>
+</section>
     <!-- Our Services -->
 
     <!--info -->
@@ -250,162 +269,119 @@
     <!-- info  -->
 
     <!-- testimonial -->
-    <section class="testimonial-section py-5 my-5">
-      <div class="container px-4">
+ <section class="testimonial-section py-5 my-5">
+    <div class="container px-4">
+        
         <div class="text-center mb-4 mb-lg-5">
-          <h2 class="fw-bold mb-3" style="color: #000">
-            What Our Patients Says
-          </h2>
-          <p
-            class="text-muted mx-auto lh-lg"
-            style="max-width: 800px; font-size: 15px"
-          >
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo.
-          </p>
+            <h2 class="fw-bold mb-3" style="color: #000">
+                What Our Patients Says
+            </h2>
+            <p class="text-muted mx-auto lh-lg" style="max-width: 800px; font-size: 15px">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae vitae
+                dicta sunt explicabo.
+            </p>
         </div>
 
         <div class="position-relative slider-wrapper">
-          <button class="slider-btn prev-btn shadow-sm">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-chevron-left"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
-              />
-            </svg>
-          </button>
+            
+            <div id="patientTestimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                
+                <div class="carousel-inner">
+                    
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="testimonial-card p-4 p-lg-5 rounded-3 h-100 mx-auto" style="max-width: 500px">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <img src="img/awlad.jpg" alt="Awlad Hossain" class="patient-avatar me-3" />
+                                        <div>
+                                            <h5 class="fw-bold mb-1" style="color: #333">Awlad Hossain</h5>
+                                            <p class="text-muted mb-0" style="font-size: 14px">Product Designer</p>
+                                        </div>
+                                        <div class="ms-auto d-none d-lg-block">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="#f7a582" opacity="0.9"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" /></svg>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted lh-lg mb-0" style="font-size: 15px">
+                                        Has been the industry's standard dummy text ever since the 1500s, when an unknow printer tool a galley of type and scrambled it to make type specimen book.
+                                    </p>
+                                </div>
+                            </div>
 
-          <button class="slider-btn next-btn shadow-sm">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-chevron-right"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
-              />
-            </svg>
-          </button>
+                            <div class="col-lg-6 d-none d-lg-block">
+                                <div class="testimonial-card active-testimonial p-4 p-lg-5 rounded-3 h-100 mx-auto" style="max-width: 500px">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <img src="img/farhana.jpg" alt="Farhana Hossain" class="patient-avatar me-3" />
+                                        <div>
+                                            <h5 class="fw-bold mb-1" style="color: #333">Farhana Hossain</h5>
+                                            <p class="text-muted mb-0" style="font-size: 14px">Brand Designer</p>
+                                        </div>
+                                        <div class="ms-auto">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="#f7a582" opacity="0.9"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" /></svg>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted lh-lg mb-0" style="font-size: 15px">
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknow printer tool a galley of type.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-          <div class="row g-4">
-            <div class="col-lg-6">
-              <div
-                class="testimonial-card p-4 p-lg-5 rounded-3 h-100 mx-auto"
-                style="max-width: 500px"
-              >
-                <div class="d-flex align-items-center mb-4">
-                  <img
-                    src="img/awlad.jpg"
-                    alt="Awlad Hossain"
-                    class="patient-avatar me-3"
-                  />
-                  <div>
-                    <h5 class="fw-bold mb-1" style="color: #333">
-                      Awlad Hossain
-                    </h5>
-                    <p class="text-muted mb-0" style="font-size: 14px">
-                      Product Designer
-                    </p>
-                  </div>
-                  <div class="ms-auto d-none d-lg-block">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="50"
-                      height="50"
-                      viewBox="0 0 24 24"
-                      fill="#f7a582"
-                      opacity="0.9"
-                    >
-                      <path
-                        d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"
-                      />
-                    </svg>
-                  </div>
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="testimonial-card p-4 p-lg-5 rounded-3 h-100 mx-auto" style="max-width: 500px">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div class="patient-avatar me-3 rounded-circle bg-secondary d-flex align-items-center justify-content-center text-white" style="width:50px; height:50px;">JD</div>
+                                        <div>
+                                            <h5 class="fw-bold mb-1" style="color: #333">John Doe</h5>
+                                            <p class="text-muted mb-0" style="font-size: 14px">Software Engineer</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted lh-lg mb-0" style="font-size: 15px">
+                                        Second slide text here. Has been the industry's standard dummy text ever since the 1500s.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 d-none d-lg-block">
+                                <div class="testimonial-card p-4 p-lg-5 rounded-3 h-100 mx-auto" style="max-width: 500px">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div class="patient-avatar me-3 rounded-circle bg-secondary d-flex align-items-center justify-content-center text-white" style="width:50px; height:50px;">JS</div>
+                                        <div>
+                                            <h5 class="fw-bold mb-1" style="color: #333">Jane Smith</h5>
+                                            <p class="text-muted mb-0" style="font-size: 14px">Marketing Manager</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted lh-lg mb-0" style="font-size: 15px">
+                                        More second slide text here. Scrambled it to make type specimen book has survived.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+            </div> <button class="slider-btn prev-btn shadow-sm" type="button" data-bs-target="#patientTestimonialCarousel" data-bs-slide="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                </svg>
+                <span class="visually-hidden">Previous</span>
+            </button>
 
-                <p class="text-muted lh-lg mb-0" style="font-size: 15px">
-                  Has been the industry's standard dummy text ever since the
-                  1500s, when an unknow printer tool a galley of type and
-                  scrambled it to make type specimen book has survived not only
-                  five centurines.
-                </p>
+            <button class="slider-btn next-btn shadow-sm" type="button" data-bs-target="#patientTestimonialCarousel" data-bs-slide="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+                <span class="visually-hidden">Next</span>
+            </button>
 
-                <div class="mt-4 d-lg-none text-start">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="45"
-                    height="45"
-                    viewBox="0 0 24 24"
-                    fill="#f7a582"
-                    opacity="0.9"
-                  >
-                    <path
-                      d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"
-                    />
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6 d-none d-lg-block">
-              <div
-                class="testimonial-card active-testimonial p-4 p-lg-5 rounded-3 h-100 mx-auto"
-                style="max-width: 500px"
-              >
-                <div class="d-flex align-items-center mb-4">
-                  <img
-                    src="img/farhana.jpg"
-                    alt="Farhana Hossain"
-                    class="patient-avatar me-3"
-                  />
-                  <div>
-                    <h5 class="fw-bold mb-1" style="color: #333">
-                      Farhana Hossain
-                    </h5>
-                    <p class="text-muted mb-0" style="font-size: 14px">
-                      Brand Designer
-                    </p>
-                  </div>
-                  <div class="ms-auto">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="50"
-                      height="50"
-                      viewBox="0 0 24 24"
-                      fill="#f7a582"
-                      opacity="0.9"
-                    >
-                      <path
-                        d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <p class="text-muted lh-lg mb-0" style="font-size: 15px">
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the 1500s, when an unknow printer tool a galley of type
-                  and scrambled it to make type specimen book has survived not
-                  only five centurines.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
+    </div>
+</section>
     <!-- testimonial -->
 
     <!-- Expert DOctor -->
